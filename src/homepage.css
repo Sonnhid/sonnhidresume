@@ -1,0 +1,206 @@
+@charset "ISO-8859-1";
+
+html{
+    height: 100%;
+    overflow: auto;
+    scroll-behavior:smooth;
+}
+
+body {
+  overflow: auto;
+  margin: 0;
+  width:100%;
+  height:fixed;
+  padding-top:40px;
+  
+
+}
+section{
+	padding-top:80px;
+}
+
+
+.container{
+	position: relative;
+	height:800px;
+    min-height: 100vh;
+	overflow:hidden;
+	width:auto;
+	
+	background-image: url("Carpic.png");
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-size:cover;
+	
+}
+.text-block{
+  position:absolute;
+  top:35vh;
+  text-align:center ;
+  text-shadow: 1px 1px 0px #f2b245; 
+  color: #4795f4;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Verdana, sans-serif;
+  width:100%;
+  font-size:72px;
+  
+}
+h2{
+	font-family: Tahoma, Verdana, sans-serif;
+	text-align:center;
+	margin-top:0px;
+	font-size:60px;
+	
+}
+h3{
+	font-family: Tahoma, Verdana, sans-serif;
+}
+h4{
+	font-family: Tahoma, Verdana, sans-serif;
+	margin:0px;
+}
+h5{
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  text-align:center;
+  display:inline-block;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top:0;
+  width:100%;
+  background-color: #2C3E50;
+  
+
+}
+
+li{
+	display:inline-block;
+}
+
+ .btn {
+  font-family: Tahoma, Verdana, sans-serif;
+  text-align:center;
+  display:block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color:white;
+}
+
+ .btn.current , .btn:hover{
+  background-color: #f2b245;
+  color: white;
+ 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.resize{
+	height:auto;
+	max-width:400px;
+}
+
+.Textbody{
+	padding-left:20%;
+	padding-right:20%;
+}
+
+.flex-container {
+  width:100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: center;
+   align-items: center;
+}
+
+.imgresize {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+
+
+
+
+.Whiteback{
+	color:black;
+    min-height: 100vh;
+	overflow:visible;
+	z-index:-1;
+	
+	background-color:white;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-size:cover;
+	
+}
+.Blueback{
+	color:white;
+	min-height: 100vh;
+	overflow:visible;
+	z-index:-1;
+	
+	background-color:#4795f4;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-size:cover;
+	
+}
+
+ 
